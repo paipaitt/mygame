@@ -1,0 +1,50 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS cache / precompiled stuff
+ipch/
+*.ipch
+*.pch
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.db
+*.opendb
+
+# Build outputs
+build/
+bin/
+out/
+
+# Cocos2d-x outputs
+*/Debug*/
+*/Release*/
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+proj.win32/x64/
+proj.win32/.vs/
+
+# Others
+.DS_Store
+
+# MyGame - Windows build outputs
+MyGame/proj.win32/Debug.win32/
+MyGame/proj.win32/Release.win32/
+MyGame/proj.win32/.vs/
+MyGame/proj.win32/ipch/
+
+# Any Debug/Release folders anywhere
+**/Debug*/
+**/Release*/
+
+# VS cache anywhere
+**/.vs/
+**/ipch/
+
